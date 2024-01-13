@@ -1,7 +1,11 @@
 
 function scr_speaker_talk(_chr, _index)
 {
-	var _voice = get_char_sound(_chr, _index, min_pitch, max_pitch);
+	var _voice = undefined;
+	if (active_speaker != undefined) 
+	{
+		_voice = get_char_sound(_chr, _index, active_speaker.min_pitch, active_speaker.max_pitch);
+	} else { _voice = get_char_sound(_chr, _index, min_pitch, max_pitch); } 
 	
 	if (active_voice == undefined or !audio_is_playing(active_voice))
 	{
