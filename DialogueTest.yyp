@@ -241,6 +241,7 @@
     {"id":{"name":"__shd_scribble","path":"shaders/__shd_scribble/__shd_scribble.yy",},},
     {"id":{"name":"ChatterboxVariableDefault","path":"scripts/ChatterboxVariableDefault/ChatterboxVariableDefault.yy",},},
     {"id":{"name":"__scribble_get_cache_state","path":"scripts/__scribble_get_cache_state/__scribble_get_cache_state.yy",},},
+    {"id":{"name":"snd_voice_5","path":"sounds/snd_voice_5/snd_voice_5.yy",},},
     {"id":{"name":"__scribble_get_state","path":"scripts/__scribble_get_state/__scribble_get_state.yy",},},
     {"id":{"name":"__scribble_class_element","path":"scripts/__scribble_class_element/__scribble_class_element.yy",},},
     {"id":{"name":"scribble_super_glyph_copy","path":"scripts/scribble_super_glyph_copy/scribble_super_glyph_copy.yy",},},

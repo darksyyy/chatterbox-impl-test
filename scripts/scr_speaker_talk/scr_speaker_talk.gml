@@ -10,7 +10,7 @@ function scr_speaker_talk(_chr, _index)
 	if (active_voice == undefined or !audio_is_playing(active_voice))
 	{
 		active_voice = audio_play_sound(voice_sounds[_voice.sound], 10, 0, 1, 0, _voice.pitch);
-	}
+	} 
 }
 	
 	

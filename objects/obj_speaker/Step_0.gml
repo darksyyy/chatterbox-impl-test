@@ -9,7 +9,7 @@ if (ChatterboxIsWaiting(chatterbox) and typist.get_state() == 1)
 
 if (typist.get_state() != 1)
 {
-	if(floor(typist.get_position()) mod voice_freq == 0)
+	if(floor(typist.get_position()) mod (active_speaker == undefined ? 1 : active_speaker.voice_freq) == 0)
 	{
 		var _active_chr = string_char_at(active_content, typist.get_position())
 		if (_active_chr != " ")
